@@ -1,42 +1,94 @@
-# Exercise 2 - Exercise 2 Description
-
-In this exercise, we will create...
-
-## Exercise 2.1 Sub Exercise 1 Description
-
-After completing these steps you will have created...
-
-1. Click here.
-<br>![](/exercises/ex2/images/02_01_0010.png)
-
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello ABAP World! | ). 
-```
+# Exercise 2
 
 
+## Estimated Time: xx minutes
 
-## Exercise 2.2 Sub Exercise 2 Description
+## Objective
 
-After completing these steps you will have...
+In this exercise, you will configure and execute a data load job to get the first batch of data into your model.  You will be using the smart wrangler to do this.  
 
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc = 0.
-    response->set_status( i_code = 200
-                     i_reason = 'Everything is fine').
-    RETURN.
-  ENDIF.
 
-```
+## What You Learn
 
-2.	Click here.
-<br>![](/exercises/ex2/images/02_02_0010.png)
+*The load job workflow
+
+*The basics of using the smart wrangler
+
+*Using wrangler expressions
+
+
+
+### Step 1
+
+
+Open …
+
+![][image-1]
+### Step 2
+
+
+Click …
+
+![][image-2]
+### Step 3
+
+
+Click …
+
+![][image-3]
+### Step 4
+
+
+Select …
+
+![][image-4]
+### Step 5
+
+
+Choose Edit  …
+
+![][image-5]
+### Step 6
+
+
+…
+
+![][image-6]
+### Step 7
+
+
+…
+
+![][image-7]
+### Step 8
+
+
+
+
+![][image-8]
+
 
 ## Summary
 
-You've now ...
+Congratulations!  You have familiarized yourself with the data ingestion workflow of SAP Analytics Cloud’s new model and with the smart wrangler.  You still have some problems in your load job, which will need to be fixed in Exercise 3.
 
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+
+
+
+
+
+
+
+
+
+
+
+[image-1]:    https://github.com/SAP-samples/teched2020-ANA261/raw/main/exercises/ex2/images/Ex2.01.png
+[image-2]:    https://github.com/SAP-samples/teched2020-ANA261/raw/main/exercises/ex2/images/Ex2.02.png
+[image-3]:    https://github.com/SAP-samples/teched2020-ANA261/raw/main/exercises/ex2/images/Ex2.03.png
+[image-4]:    https://github.com/SAP-samples/teched2020-ANA261/raw/main/exercises/ex2/images/Ex2.04.png
+[image-5]:    https://github.com/SAP-samples/teched2020-ANA261/raw/main/exercises/ex2/images/Ex2.05.png
+[image-6]:    https://github.com/SAP-samples/teched2020-ANA261/raw/main/exercises/ex2/images/Ex2.06.png
+[image-7]:    https://github.com/SAP-samples/teched2020-ANA261/raw/main/exercises/ex2/images/Ex2.07.png
+[image-8]:    https://github.com/SAP-samples/teched2020-ANA261/raw/main/exercises/ex2/images/Ex2.08.png
+

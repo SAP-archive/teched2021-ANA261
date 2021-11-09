@@ -1,41 +1,55 @@
-# Session ID - Session Title
-
+# ANA261 - Modeling and Data Management with the New Model in SAP Analytics
 ## Description
 
-This repository contains the material for the SAP TechEd 2021 session called Session ID - Session Title.  
+
+With release 2021.QRC3, SAP Analytics Cloud introduced an entirely new model, imaginatively named New Model.  It introduces features such as measures, model-based calculations and brings the smart wrangler into the data management workflow.  In these exercises, you will take a tour of the New Model’s modeling basics and data management in SAP Analytics Cloud.  
 
 ## Overview
 
-This session introduces attendees to...
+This workshop consists of a series of exercises to familiarize you with the capability and workflows of SAP Analytics Cloud’s New Model.  You will create a model that has both accounts and measures.  The data model is based on publicly available data from the United States National Park Service and contains visitation data to all units within the US National Park system from 1970 to 2020.
+
+There are four exercises, which introduce you to the basics of creating a new model, loading data into it, troubleshooting and modifying existing load jobs and managing model-based calculated measures.
+
+A note on the workflow – 
+Currently (Q4 2021), there is no data first model creation workflow for the new model.  “Data first modeling” means that the model is created from data, either uploaded or from a data source and the model is built around the model.  The Dataset always uses a data first modeling workflow, and the classic account model can be created using a data first workflow.  In both cases, the model is built in wrangling.  Currently, if you create a model from data, an account model is created, not a new model.  
+
+A structure first workflow means that the user first maps out how the model is structured and then loads the data into this structure later.
+
+
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+In this session, you have three SAP Analytics Cloud tenant options:  
+*You may use the one provided to you for the session.  
+*You may use your BTP trial tenant if you have provisioned one.
+*You may use your own tenant and user if you have one.
+
+The provided tenant is a preview tenant, but there is nothing in the exercises that requires a preview tenant.  If you are using your own setup, a development or production tenant is sufficient.
+
+Tennant URL: 
+
+User Credentials:
+*Email: student01@sap.com to student50@sap.com
+*Password: Welcome01
+
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
 
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
+There are four exercises in this workshop.
 
-  
-**OR** Link to the Tutorial Navigator for example...
+Exercise 1 will explore the creation of the model data structure.  
 
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
+Exercise 2 will demonstrate loading data into your model
 
-**IMPORTANT**
+Exercise 3 will explore modifying (re-wrangling) and re-running existing load jobs
 
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
+Exercise 4 will demonstrate the creation of calculated measures in the model.  
 
 ## How to obtain support
 
-Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
+Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab..
 
 ## License
-Copyright (c) 2021 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
+
+Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved. This file is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
