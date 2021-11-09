@@ -77,12 +77,12 @@ You have familiarized yourself with basics of creating calculated measures in th
 
 
 
-[image-1]:    https://github.com/SAP-samples/teched2021-ANA261-ANA261/raw/main/exercises/ex4/images/Ex4.01.png
-[image-2]:    https://github.com/SAP-samples/teched2021-ANA261-ANA261/raw/main/exercises/ex4/images/Ex4.02.png
-[image-3]:    https://github.com/SAP-samples/teched2021-ANA261-ANA261/raw/main/exercises/ex4/images/Ex4.03.png
-[image-4]:    https://github.com/SAP-samples/teched2021-ANA261-ANA261/raw/main/exercises/ex4/images/Ex4.04.png
-[image-5]:    https://github.com/SAP-samples/teched2021-ANA261-ANA261/raw/main/exercises/ex4/images/Ex4.05.png
-[image-6]:    https://github.com/SAP-samples/teched2021-ANA261-ANA261/raw/main/exercises/ex4/images/Ex4.06.png
-[image-7]:    https://github.com/SAP-samples/teched2021-ANA261-ANA261/raw/main/exercises/ex4/images/Ex4.07.png
-[image-8]:    https://github.com/SAP-samples/teched2021-ANA261-ANA261/raw/main/exercises/ex4/images/Ex4.08.png
+[image-1]:    https://github.com/SAP-samples/teched2021-ANA261/raw/main/exercises/ex4/images/Ex4.01.png
+[image-2]:    https://github.com/SAP-samples/teched2021-ANA261/raw/main/exercises/ex4/images/Ex4.02.png
+[image-3]:    https://github.com/SAP-samples/teched2021-ANA261/raw/main/exercises/ex4/images/Ex4.03.png
+[image-4]:    https://github.com/SAP-samples/teched2021-ANA261/raw/main/exercises/ex4/images/Ex4.04.png
+[image-5]:    https://github.com/SAP-samples/teched2021-ANA261/raw/main/exercises/ex4/images/Ex4.05.png
+[image-6]:    https://github.com/SAP-samples/teched2021-ANA261/raw/main/exercises/ex4/images/Ex4.06.png
+[image-7]:    https://github.com/SAP-samples/teched2021-ANA261/raw/main/exercises/ex4/images/Ex4.07.png
+[image-8]:    https://github.com/SAP-samples/teched2021-ANA261/raw/main/exercises/ex4/images/Ex4.08.png
 
