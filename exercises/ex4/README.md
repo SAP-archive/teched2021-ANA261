@@ -10,7 +10,7 @@ In this exercise, you will create a [model based calculated measure](https://blo
 
 ## What You Learn
 
-*Creating calculated measures in the model.
+* Creating calculated measures in the model.
 
 
 
