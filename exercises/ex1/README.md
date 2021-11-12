@@ -1,7 +1,7 @@
 # Exercise 1
 
 
-## Estimated Time: xx minutes
+## Estimated Time: 30 minutes
 
 ## Objective
 
@@ -23,7 +23,7 @@ In this exercise, you will build your first new model in SAP Analytics Cloud.  Y
 ### Step 1
 
 
-Open the url provided in the requirements section and log in, using one of the studentXX logins and the password, also from the requirements section.
+Open the tenant url provided in the requirements section and log in, using one of the studentXX logins and the password, also from the requirements section.  Alternatively, you can log into your own tenant.
 
 ![][image-1]
 ### Step 2
@@ -63,7 +63,17 @@ You will see a popup, allowing you to choose between the classic account model a
 ### Step 7
 
 
-Take a moment to orient yourself in the structure first modeling environment.  In the panel on the left-hand side, you see an overview of the measures and dimensions in the model.  In the center, you see the structure.  On the right, you see model details.  If you select an individual measure or dimension on the left side, this will show the dimension/member specific details.
+Take a moment to orient yourself in the structure first modeling environment. 
+
+There is a menu bar across the top. 
+
+In the panel on the left-hand side, you see an overview of the measures and dimensions in the model.  
+
+In the center, you see the structure.  
+
+On the right, you see model details.  If you select an individual measure or dimension on the left side, or in the diagram, the blue title bar of the details pane will show an additional icon for dimension/member specific details.  You can toggle the focus between the model as a whole and specific dimensions or measures.
+
+The Details pane can be hidden by toggling the Details button, above the pane.
 
 ![][image-7]
 ### Step 8
@@ -75,7 +85,7 @@ Let’s add our first dimension.  Start by clicking on the pulldown arrow, on th
 ### Step 9
 
 
-This dimension will be a public dimension, which has already been maintained.  So choose “Add existing dimensions”.
+This dimension will be a public dimension, which has already been maintained.  Choose “Add existing dimensions”.
 
 ![][image-9]
 ### Step 10
@@ -195,20 +205,87 @@ Name the model NationalParkVisitation.  Make sure to save this in your My Files 
 ### Step 28
 
 
-This is how your model should now look.  It won’t contain any data yet.  You’ll change that in the next exercise.
+Now we’ll add an additional dimension.
 
 ![][image-28]
 ### Step 29
 
 
-
+Call the new dimension “DateAdded”.  Make sure that it is a date dimension.  We’ll use this dimension to record the date on which a particular fact table record was added.
 
 ![][image-29]
+### Step 30
+
+
+Give it a description, “Date of record upload into model”.
+
+![][image-30]
+### Step 31
+
+
+This model has a select range of valid time and will reject uploaded date values outside this range.  We need to ensure that the valid range runs from 1979 to 2021.  To do this, we need to edit the time range setting in the model properties.  
+
+We have multiple options for accessing the model properties dialog.  You can use either the method in this step, or the one in step 31. 
+
+Because of our current navigation state, with a particular dimension selected and the model details panel focused on the dimension settings of that member, one of these ways is to select the properties gear icon, next to date.
+
+![][image-31]
+### Step 32
+
+
+The other way to open the model properties dialog is always available.  In the menu, select General -> Model Preferences.
+
+![][image-32]
+### Step 33
+
+
+This is the model preferences dialog.  It has a series of tabs in the navigation pane at the left side.  The default selection of these panes is context sensitive.  If we came here from a date dimension, the default tab is the Fiscal Time.  Since we are not using fiscal time in this model, we don’t need to do anything here.
+
+![][image-33]
+### Step 34
+
+
+If we came here from the main menu, our default landing tab is General Settings.  While we are here, have a look at the general settings.  The model type is a planning model by default because your user is a planning user.  
+
+![][image-34]
+### Step 35
+
+
+Toggle to the Planning & Time Range tab.  Here you will find the valid date range.  This is the valid date range for all date dimensions in the model.  
+
+![][image-35]
+### Step 36
+
+
+Select the from data and select the starting date in the calendar picker.
+
+![][image-36]
+### Step 37
+
+
+Make sure that the valid dates start on January 1, 1979 and click OK.
+
+![][image-37]
+### Step 38
+
+
+Save your model and this is how it should look now.
+
+![][image-38]
 
 
 ## Summary
 
 You created a model for analyzing visitation at National Parks in the United States.  Congratulations, you have learned the first basics of building a model structure.
+
+
+
+
+
+
+
+
+
 
 
 
@@ -269,4 +346,13 @@ You created a model for analyzing visitation at National Parks in the United Sta
 [image-27]:    https://github.com/SAP-samples/teched2021-ANA261/raw/main/exercises/ex1/images/Ex1.27.png
 [image-28]:    https://github.com/SAP-samples/teched2021-ANA261/raw/main/exercises/ex1/images/Ex1.28.png
 [image-29]:    https://github.com/SAP-samples/teched2021-ANA261/raw/main/exercises/ex1/images/Ex1.29.png
+[image-30]:    https://github.com/SAP-samples/teched2021-ANA261/raw/main/exercises/ex1/images/Ex1.30.png
+[image-31]:    https://github.com/SAP-samples/teched2021-ANA261/raw/main/exercises/ex1/images/Ex1.31.png
+[image-32]:    https://github.com/SAP-samples/teched2021-ANA261/raw/main/exercises/ex1/images/Ex1.32.png
+[image-33]:    https://github.com/SAP-samples/teched2021-ANA261/raw/main/exercises/ex1/images/Ex1.33.png
+[image-34]:    https://github.com/SAP-samples/teched2021-ANA261/raw/main/exercises/ex1/images/Ex1.34.png
+[image-35]:    https://github.com/SAP-samples/teched2021-ANA261/raw/main/exercises/ex1/images/Ex1.35.png
+[image-36]:    https://github.com/SAP-samples/teched2021-ANA261/raw/main/exercises/ex1/images/Ex1.36.png
+[image-37]:    https://github.com/SAP-samples/teched2021-ANA261/raw/main/exercises/ex1/images/Ex1.37.png
+[image-38]:    https://github.com/SAP-samples/teched2021-ANA261/raw/main/exercises/ex1/images/Ex1.38.png
 

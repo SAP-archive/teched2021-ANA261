@@ -19,6 +19,9 @@ A structure first workflow means that the user first maps out how the model is s
 
 ## Requirements
 
+
+The data used in this workshop is 
+
 In this session, you have three SAP Analytics Cloud tenant options:  
 *You may use the one provided to you for the session.  
 *You may use your BTP trial tenant if you have provisioned one.
@@ -32,6 +35,12 @@ User Credentials:
 *Email: student01@sap.com to student50@sap.com
 *Password: Welcome01
 
+There is no guarantee that two people are not trying to use the same user at the same time. If you have a suitable tenant available, we recommend using that instead of the provided tenant simply to have your own personal user. As there are 50 users provisioned for this workshop on appdesign.eu10.sapanalytics.cloud, you can choose from one of fifty users and we hope to help avoid user collisions this way, but we still can't rule it out.
+
+The data source is a compilation of query data from the United States National Park service data query builder website. We’ll refer to this as the “National Parks Dataset”.  A cached copy is provided to you in the data folder as a convenient reference. Additionally, a copy has been uploaded as a public Google sheet.  In the exercises, we will configure our import job to draw directly from this public sheet.  
+
+Data url: 
+
 
 ## Exercises
 
@@ -42,7 +51,7 @@ Exercise 1 will explore the creation of the model data structure.
 
 Exercise 2 will demonstrate loading data into your model
 
-Exercise 3 will explore modifying (re-wrangling) and re-running existing load jobs
+Exercise 3 will explore modifying (re-wrangling) and re-running existing load jobs and modifying models with loaded fact data.
 
 Exercise 4 will demonstrate the creation of calculated measures in the model.  
 
