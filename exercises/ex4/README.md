@@ -5,7 +5,7 @@
 
 ## Objective
 
-In this exercise, you will create model based calculated measures.
+In this exercise, you will create a [model based calculated measure](https://blogs.sap.com/2021/07/29/sap-analytics-cloud-for-planning-leveraging-calculated-conversion-measures-in-the-new-model/).
 
 
 ## What You Learn
