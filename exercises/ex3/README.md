@@ -5,7 +5,7 @@
 
 ## Objective
 
-Your load job from Exercise 2 has rejected rows.  In this exercise, you will fix the problem preventing a clean import job in Exercise 2.  We’ll have a look at the cause of these errors, fix them and execute the load.  You will do this by modifying the model itself.  Additionally, you’ll modify the import wrangling job, before re-executing the import.  
+Your load job from [Exercise 2](https://github.com/SAP-samples/teched2021-ANA261/tree/main/exercises/ex2) has rejected rows.  In this exercise, you will fix the problem preventing a clean import job in [Exercise 2](https://github.com/SAP-samples/teched2021-ANA261/tree/main/exercises/ex2).  We’ll have a look at the cause of these errors, fix them and execute the load.  You will do this by modifying the model itself.  Additionally, you’ll modify the import wrangling job, before re-executing the import.  
 
 
 ## What You Learn
@@ -19,7 +19,7 @@ Your load job from Exercise 2 has rejected rows.  In this exercise, you will fix
 ### Step 1
 
 
-Your starting point is in the Model Structure view, where you left off in Exercise 2.  Navigate to the Data Management view.
+Your starting point is in the Model Structure view, where you left off in [Exercise 2](https://github.com/SAP-samples/teched2021-ANA261/tree/main/exercises/ex2).  Navigate to the Data Management view.
 
 ![][image-1]
 ### Step 2
