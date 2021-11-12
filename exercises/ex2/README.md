@@ -21,7 +21,7 @@ In this exercise, you will configure and execute a data load job to get the firs
 ### Step 1
 
 
-This is the model that you built in Exercise 1.  It has several measures and public dimensions, as well as a single local dimension.  The Data Foundation (Fact Table) is empty.  In this exercise, you will change that.
+This is the model that you built in [Exercise 1](https://github.com/SAP-samples/teched2021-ANA261/tree/main/exercises/ex1).  It has several measures and public dimensions, as well as a single local dimension.  The Data Foundation (Fact Table) is empty.  In this exercise, you will change that.
 
 ![][image-1]
 ### Step 2
@@ -218,7 +218,7 @@ Once all columns are mapped, click on Next
 ### Step 27
 
 
-You are now in the data validation step, where you can review your data quality issues, before executing the load job.  Note there is a problem with the park type in approximately 16 thousand rows.  Ignore this error for now.  We will resolve it in Exercise 3.
+You are now in the data validation step, where you can review your data quality issues, before executing the load job.  Note there is a problem with the park type in approximately 16 thousand rows.  Ignore this error for now.  We will resolve it in [Exercise 3](https://github.com/SAP-samples/teched2021-ANA261/tree/main/exercises/ex3).
 
 ![][image-27]
 ### Step 28
@@ -249,7 +249,7 @@ Return to the Model Structure view and have a look at the data foundation.  Note
 
 ## Summary
 
-Congratulations!  You have familiarized yourself with the data ingestion workflow of SAP Analytics Cloud’s new model and with the smart wrangler.  You still have some problems in your load job, which will need to be fixed in Exercise 3.
+Congratulations!  You have familiarized yourself with the data ingestion workflow of SAP Analytics Cloud’s new model and with the smart wrangler.  You still have some problems in your load job, which will need to be fixed in [Exercise 3](https://github.com/SAP-samples/teched2021-ANA261/tree/main/exercises/ex3).
 
 
 
