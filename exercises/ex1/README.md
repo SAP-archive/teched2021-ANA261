@@ -23,7 +23,7 @@ In this exercise, you will build your first new model in SAP Analytics Cloud.  Y
 ### Step 1
 
 
-Open the tenant url provided in the requirements section and log in, using one of the studentXX logins and the password, also from the requirements section.  Alternatively, you can log into your own tenant.
+Open the tenant url provided in the [requirements section](https://github.com/SAP-samples/teched2021-ANA261#requirements) of the introduction and log in, using one of the studentXX logins and the password, also from the requirements section.  Alternatively, you can log into your own tenant.
 
 ![][image-1]
 ### Step 2
