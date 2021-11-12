@@ -17,4 +17,4 @@ The file in this repository is a combination of multiple queries, downloaded fro
 3. NationalParkService_VisitationStats - Sheet1.csv
   * all of the above park types
 
-Additionally, the collated data is [mirrored on a public Google sheet]([https://docs.google.com/spreadsheets/d/1vi8fPg00o1ws-GptHCsMTdZkk_cQ3tz1hae6z7tQ0b4/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1vi8fPg00o1ws-GptHCsMTdZkk_cQ3tz1hae6z7tQ0b4/edit?usp=sharing)).  Because SAP Analytics Cloud can read directly from Google sheets as a data source and import jobs from data connections can be re-wrangled, but uploaded files can't be, this workshop uses the Google sheet copy.
+Additionally, the collated data is [mirrored on a public Google sheet]([https://docs.google.com/spreadsheets/d/1vi8fPg00o1ws-GptHCsMTdZkk_cQ3tz1hae6z7tQ0b4/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1vi8fPg00o1ws-GptHCsMTdZkk_cQ3tz1hae6z7tQ0b4/edit?usp=sharing).  Because SAP Analytics Cloud can read directly from Google sheets as a data source and import jobs from data connections can be re-wrangled, but uploaded files can't be, this workshop uses the Google sheet copy.
