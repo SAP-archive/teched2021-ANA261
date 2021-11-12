@@ -87,7 +87,7 @@ Type an open bracket, to make the measures available in the code completion.  Se
 
 Input the following formula:
 
-IF([Backcountry]>0, 1, 0)
+> IF([Backcountry]>0, 1, 0)
 
 Note that the calculation preview now shows a value.
 
@@ -98,6 +98,8 @@ Note that the calculation preview now shows a value.
 The current formula does not have much sematic meaning, so lets flesh it out:
 
 If the value of [Backcountry] is zero, then the percentage will also be zero.  Otherwise, divide [Backcountry] by the sum of all overnight visitor types (all measures, except [RecreationalVisits])
+
+>IF([Backcountry]>0, [Backcountry]/([ConcessionerLodging]+[ConcessionerCamping]+[TentCampers]+[RVCampers]+[Backcountry]), 0)
 
 ![][image-10]
 ### Step 11
