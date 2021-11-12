@@ -101,6 +101,8 @@ If the value of [Backcountry] is zero, then the percentage will also be zero.  O
 
 >IF([Backcountry]>0, [Backcountry]/([ConcessionerLodging]+[ConcessionerCamping]+[TentCampers]+[RVCampers]+[Backcountry]), 0)
 
+Just as in the wrangler's expression editor, you can use the Format button to pretty print your formula for readability.
+
 ![][image-10]
 ### Step 11
 
