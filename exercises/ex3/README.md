@@ -10,9 +10,9 @@ Your load job from [Exercise 2](https://github.com/SAP-samples/teched2021-ANA261
 
 ## What You Learn
 
-*Removing and adding dimensions from after data has been loaded
+* Removing and adding dimensions from after data has been loaded
 
-*Modifying and re-executing import jobs.
+* Modifying and re-executing import jobs.
 
 
 
