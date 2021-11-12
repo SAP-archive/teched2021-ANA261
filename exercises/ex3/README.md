@@ -133,7 +133,7 @@ Recall that the transformations execute in sequence, from top to bottom.  We are
 ### Step 18
 
 
-Most regions have multiple states.  Some have 1:1 relationships and there is only one state value that could be associated with that particular region.  Some of the records with empty State values have such a Region, so we can easily fill in the missing State values.  Specifically, these particular records have “National Capital” as Region.  
+The use of "Region" in this dataset refers to broad geographical regions of the United States, such as the Northeast, Southeast, and the Midwest.  Most regions have multiple states or terrotories.  Two regions 1:1 have only one State column value that could be associated with that particular region.  They are "Alaska" and "National Capital".  Since some of the records with missing State column values have “National Capital” as Region, we can easily fix them.  (We'll leave the others for the time being, though you could fix these with other wrangler expressions)
 
 We’ll add a new WEL expression to do this. Check to see if Sate is empty and Region is “National Capital”.  If this is true, then write “DC” in as State.  Otherwise, retain the existing value of State.
 
