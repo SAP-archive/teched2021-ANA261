@@ -194,7 +194,7 @@ Navigate back to the Model Structure view.  Congratulations!  Your model has a c
 
 ## Summary
 
-Congratulations!  You have familiarized yourself with basics of troubleshooting, changing, and re-executing load jobs.
+Congratulations!  You have familiarized yourself with basics of troubleshooting, changing, and re-executing load jobs.  In [Exercise 4](https://github.com/SAP-samples/teched2021-ANA261/tree/main/exercises/ex4), you will add a calculated measure.
 
 
 
