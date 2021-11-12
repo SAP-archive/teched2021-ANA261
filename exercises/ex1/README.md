@@ -37,30 +37,22 @@ If this user has already been used to log in, you will not see this popup.
 ### Step 3
 
 
-If this is the first logon for this user, you will see this GDPR greeting popup.  Click Accept to continue.
-
-If this user has already been used to log in, you will not see this popup.
+From the navigation strip, at the left edge of the screen, click on Modeler.  This will take you to the modeling module.
 
 ![][image-3]
 ### Step 4
 
 
-From the navigation strip, at the left edge of the screen, click on Modeler.  This will take you to the modeling module.
+In the Modeler, you have four options for creating a model.  In this exercise, we will be creating a New Model from scratch, so choose the leftmost button, “Create a new model”.  Creating a model from scratch is known as “Structure First” modeling.  Creating a model from an uploaded file for data from a connection is known as “Data First” modeling.
 
 ![][image-4]
 ### Step 5
 
 
-In the Modeler, you have four options for creating a model.  In this exercise, we will be creating a New Model from scratch, so choose the leftmost button, “Create a new model”.  Creating a model from scratch is known as “Structure First” modeling.  Creating a model from an uploaded file for data from a connection is known as “Data First” modeling.
+You will see a popup, allowing you to choose between the classic account model and the new model.  New model is the default and the recommended model type when you are creating a model in a structure first workflow.
 
 ![][image-5]
 ### Step 6
-
-
-You will see a popup, allowing you to choose between the classic account model and the new model.  New model is the default and the recommended model type when you are creating a model in a structure first workflow.
-
-![][image-6]
-### Step 7
 
 
 Take a moment to orient yourself in the structure first modeling environment. 
@@ -75,152 +67,154 @@ On the right, you see model details.  If you select an individual measure or dim
 
 The Details pane can be hidden by toggling the Details button, above the pane.
 
+![][image-6]
+### Step 7
+
+
+Let’s add our first dimension.  Start by clicking on the pulldown arrow, on the Dimensions section of the left panel.
+
 ![][image-7]
 ### Step 8
 
 
-Let’s add our first dimension.  Start by clicking on the pulldown arrow, on the Dimensions section of the left panel.
+This dimension will be a public dimension, which has already been maintained.  Choose “Add existing dimensions”.
 
 ![][image-8]
 ### Step 9
 
 
-This dimension will be a public dimension, which has already been maintained.  Choose “Add existing dimensions”.
+Next, choose “Generic”.
 
 ![][image-9]
 ### Step 10
 
 
-Next, choose “Generic”.
+The dimension that we want to add is State, which contains US states and territories.  Since there are many public dimensions on this tenant, you might want to use the search feature.  Type in “st” and click the magnifying lens. 
 
 ![][image-10]
 ### Step 11
 
 
-The dimension that we want to add is State, which contains US states and territories.  Since there are many public dimensions on this tenant, you might want to use the search feature.  Type in “st” and click the magnifying lens.  
+Select State and click Add.  Note how the model diagram changes.  Alternatively, you can select StateWithRegion, which is the same list of states and territories, but with a parent child hierarchy.  The rest of this exercise presumes that you went with the flat dimension.
 
 ![][image-11]
 ### Step 12
 
 
-Select State and click Add.  Note how the model diagram changes.  Alternatively, you can select StateWithRegion, which is the same list of states and territories, but with a parent child hierarchy.  The rest of this exercise presumes that you went with the 
+Use the same method to add two additional public dimensions; Region and NationalPark.
 
 ![][image-12]
 ### Step 13
 
 
-Use the same method to add two additional public dimensions; Region and NationalPark.
+Let’s add a local dimension, which will only exist inside this model.  Start by clicking on the pulldown arrow, on the Dimensions section of the left panel.  Select “Add new Dimension”.
 
 ![][image-13]
 ### Step 14
 
 
-Let’s add a local dimension, which will only exist inside this model.  Start by clicking on the pulldown arrow, on the Dimensions section of the left panel.  Select “Add new Dimension”.
+Call your dimension “UnitType”.
 
 ![][image-14]
 ### Step 15
 
 
-Call your dimension “UnitType”.
+Click on the text of your new dimension, to view and edit its members.  In the menu bar, click the Plus sign, to add a member.  
 
 ![][image-15]
 ### Step 16
 
 
-Click on the text of your new dimension, to view and edit its members.  In the menu bar, click the Plus sign, to add a member.  
+Call this member “National Monument”.  
 
 ![][image-16]
 ### Step 17
 
 
-Call this member “National Monument”.
+This is the list view.  There is an alternative, spreadsheet style view, which might be more comfortable when maintaining many dimensions.  To go to this view, click the grid icon, to toggle into grid view.
 
 ![][image-17]
 ### Step 18
 
 
-This is the list view.  There is an alternative, spreadsheet style view, which might be more comfortable when maintaining many dimensions.  To go to this view, click the grid icon, to toggle into grid view.
+In grid view, you can simply click on a new row and directly edit the ID and description of a member.  Add “National Park” to the Member ID in the first empty row.
 
 ![][image-18]
 ### Step 19
 
 
-In grid view, you can simply click on a new row and directly edit the ID and description of a member.  Add “National Park” to the Member ID in the first empty row.
+After hitting Enter, you have three dimension members.
 
 ![][image-19]
 ### Step 20
 
 
-After hitting Enter, you have three dimension members.
+Click the back arrow, to return to the model.
 
 ![][image-20]
 ### Step 21
 
 
-Click the back arrow, to return to the model.
+Now we will begin adding measure.  Slick the Add button in the Measures area.
 
 ![][image-21]
 ### Step 22
 
 
-Now we will begin adding measure.  Slick the Add button in the Measures area.
+Set the name of the measure to RecreationVisits.
 
 ![][image-22]
 ### Step 23
 
 
-Set the name of the measure to RecreationVisits.
+Set the description to “Daytrip Visitors”.  Set the data type to Integer.
 
 ![][image-23]
 ### Step 24
 
 
-Set the description to “Daytrip Visitors”.  Set the data type to Integer.
+Add the rest of the measures:
+
+* ConcessionerLodging
+* ConcessionerCamping
+* TentCampers
+* RVCampers
+* Backcountry
+
+Set the data type on all of them to Integer.
 
 ![][image-24]
 ### Step 25
 
 
-Add the rest of the measures:
-
-ConcessionerLodging
-ConcessionerCamping
-TentCampers
-RVCampers
-Backcountry
+Click to save the model
 
 ![][image-25]
 ### Step 26
 
 
-Click to save the model
+Name the model NationalParkVisitation.  Make sure to save this in your My Files folder and not in Public.  There will be dozens of other people creating models in this session.  If you do want to save it to Public for some reason, add a “_XX” suffix to the name, where the XX is the student number that you logged on with.
 
 ![][image-26]
 ### Step 27
 
 
-Name the model NationalParkVisitation.  Make sure to save this in your My Files folder and not in Public.  There will be dozens of other people creating models in this session.  If you do want to save it to Public for some reason, add a “_XX” suffix to the name, where the XX is the student number that you logged on with.
+Now we’ll add an additional dimension.
 
 ![][image-27]
 ### Step 28
 
 
-Now we’ll add an additional dimension.
+Call the new dimension “DateAdded”.  Make sure that it is a date dimension.  We’ll use this dimension to record the date on which a particular fact table record was added.
 
 ![][image-28]
 ### Step 29
 
 
-Call the new dimension “DateAdded”.  Make sure that it is a date dimension.  We’ll use this dimension to record the date on which a particular fact table record was added.
+Give it a description, “Date of record upload into model”.
 
 ![][image-29]
 ### Step 30
-
-
-Give it a description, “Date of record upload into model”.
-
-![][image-30]
-### Step 31
 
 
 This model has a select range of valid time and will reject uploaded date values outside this range.  We need to ensure that the valid range runs from 1979 to 2021.  To do this, we need to edit the time range setting in the model properties.  
@@ -229,49 +223,52 @@ We have multiple options for accessing the model properties dialog.  You can use
 
 Because of our current navigation state, with a particular dimension selected and the model details panel focused on the dimension settings of that member, one of these ways is to select the properties gear icon, next to date.
 
+![][image-30]
+### Step 31
+
+
+The other way to open the model properties dialog is always available.  In the menu, select General -> Model Preferences.
+
 ![][image-31]
 ### Step 32
 
 
-The other way to open the model properties dialog is always available.  In the menu, select General -> Model Preferences.
+This is the model preferences dialog.  It has a series of tabs in the navigation pane at the left side.  The default selection of these panes is context sensitive.  If we came here from a date dimension, the default tab is the Fiscal Time.  Since we are not using fiscal time in this model, we don’t need to do anything here.
 
 ![][image-32]
 ### Step 33
 
 
-This is the model preferences dialog.  It has a series of tabs in the navigation pane at the left side.  The default selection of these panes is context sensitive.  If we came here from a date dimension, the default tab is the Fiscal Time.  Since we are not using fiscal time in this model, we don’t need to do anything here.
+If we came here from the main menu, our default landing tab is General Settings.  While we are here, have a look at the general settings.  The model type is a planning model by default because your user is a planning user.  
 
 ![][image-33]
 ### Step 34
 
 
-If we came here from the main menu, our default landing tab is General Settings.  While we are here, have a look at the general settings.  The model type is a planning model by default because your user is a planning user.  
+Toggle to the Planning & Time Range tab.  Here you will find the valid date range.  This is the valid date range for all date dimensions in the model.  
 
 ![][image-34]
 ### Step 35
 
 
-Toggle to the Planning & Time Range tab.  Here you will find the valid date range.  This is the valid date range for all date dimensions in the model.  
+Select the from data and select the starting date in the calendar picker. 
 
 ![][image-35]
 ### Step 36
 
 
-Select the from data and select the starting date in the calendar picker.
+Make sure that the valid dates start on January 1, 1979 and click OK.
 
 ![][image-36]
 ### Step 37
 
 
-Make sure that the valid dates start on January 1, 1979 and click OK.
+Save your model and this is how it should look now.
 
 ![][image-37]
 ### Step 38
 
 
-Save your model and this is how it should look now.
-
-![][image-38]
 
 
 ## Summary
