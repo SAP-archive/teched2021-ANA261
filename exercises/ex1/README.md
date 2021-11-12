@@ -10,13 +10,13 @@ In this exercise, you will build your first new model in SAP Analytics Cloud.  Y
 
 ## What You Learn
 
-*Model configuration
+* Model configuration
 
-*Adding dimensions and measures
+* Adding dimensions and measures
 
-*Using public dimensions
+* Using public dimensions
 
-*Managing local dimensions
+* Managing local dimensions
 
 
 
@@ -273,7 +273,7 @@ Save your model and this is how it should look now.
 
 ## Summary
 
-You created a model for analyzing visitation at National Parks in the United States.  Congratulations, you have learned the first basics of building a model structure.
+You created a model for analyzing visitation at National Parks in the United States.  Congratulations, you have learned the first basics of building a model structure.  You will begin loading data into it in [Exercise 2](https://github.com/SAP-samples/teched2021-ANA261/tree/main/exercises/ex2).
 
 
 
