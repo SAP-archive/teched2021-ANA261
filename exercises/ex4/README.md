@@ -19,7 +19,7 @@ In this exercise, you will create model based calculated measures.
 ### Step 1
 
 
-Your starting point is the model in the Model Structure view, as you left it at the end of Exercise 3.  Navigate to the Calculations view.
+Your starting point is the model in the Model Structure view, as you left it at the end of [Exercise 3](https://github.com/SAP-samples/teched2021-ANA261/tree/main/exercises/ex3).  Navigate to the Calculations view.
 
 ![][image-1]
 ### Step 2
