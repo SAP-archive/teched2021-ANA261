@@ -119,11 +119,11 @@ This will add an editor space for the expression editor and the Details pane wil
 
 The data does not have a date column.  It does have Year and Month columns.  Let’s create a column called “Date”.  Column names in transforms are surrounded by brackets, as with formulas.  To create a new column called “Date”, write
 
-[Date] =
+> [Date] =
 
 Use the editor’s code completion functionality to help you create a concatenate statement.  Write
 
-[Date] = co
+> [Date] = co
 
 Now, a list of functions will be displayed, starting with co.  Choose concatenate and it will be placed in your editor.
 
@@ -140,7 +140,7 @@ We want each value of Date in a record to be drawn from Month and Year.  For str
 
 Make the expression show
 
-[Date] = concatenate([Year], [Month], ".")
+> [Date] = concatenate([Year], [Month], ".")
 
 This will concatenate the values of Year and Month, using a period as the separator.  Then click the checkmark icon at the upper right of the editor to execute the transform.
 
@@ -150,7 +150,7 @@ This will concatenate the values of Year and Month, using a period as the separa
 
 Add the following expression
 
-[AddedDate] = now()
+> [AddedDate] = now()
 
 This will create a new, AddedDate column and fill it with the current date (when the import job executed)
 
@@ -197,15 +197,15 @@ Change the data type of the Date column to Date
 Click Next at the bottom right and go to the mapping step.  Most of the columns were automatically mapped, but there are five remaining columns that still need to be mapped.
 
 Map:
-*The source column [Date] to the model dimension Date
+* The source column [Date] to the model dimension Date
 
-*The source column [State] to the model dimension State
+* The source column [State] to the model dimension State
 
-*The source column [UnitCode] to the model dimension NationalPark
+* The source column [UnitCode] to the model dimension NationalPark
 
-*The source column [ParkType] to the model dimension UnitType
+* The source column [ParkType] to the model dimension UnitType
 
-*The source column [AddedDate] to the model dimension AddedDate
+* The source column [AddedDate] to the model dimension AddedDate
 
 
 ![][image-25]
