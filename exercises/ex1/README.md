@@ -266,8 +266,6 @@ Make sure that the valid dates start on January 1, 1979 and click OK.
 Save your model and this is how it should look now.
 
 ![][image-37]
-### Step 38
-
 
 
 
