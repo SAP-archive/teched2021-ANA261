@@ -2,11 +2,11 @@
 ## Description
 
 
-With release 2021.QRC3, SAP Analytics Cloud introduced an entirely new model, imaginatively named New Model.  It introduces features such as measures, model-based calculations and brings the smart wrangler into the data management workflow.  In these exercises, you will take a tour of the New Model’s modeling basics and data management in SAP Analytics Cloud.  
+With release 2021.QRC3, SAP Analytics Cloud introduced an entirely new model, imaginatively named New Model.  It introduces features such as measures, model-based calculations and brings the smart wrangler into the data management workflow.  This workshop consists of a series of exercises to familiarize you with the capability and workflows of SAP Analytics Cloud’s New Model.  
 
 ## Overview
 
-This workshop consists of a series of exercises to familiarize you with the capability and workflows of SAP Analytics Cloud’s New Model.  You will create a model that has both accounts and measures.  The data model is based on publicly available data from the United States National Park Service and contains visitation data to all units within the US National Park system from 1970 to 2020.
+In these exercises, you will take a tour of the New Model’s modeling basics and data management in SAP Analytics Cloud and build a simple model.  The data model is based on publicly available data from the United States National Park Service and contains visitation data to all units within the US National Park system from 1970 to 2020.
 
 There are four exercises, which introduce you to the basics of creating a new model, loading data into it, troubleshooting and modifying existing load jobs and managing model-based calculated measures.
 
