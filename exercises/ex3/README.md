@@ -49,7 +49,7 @@ Go back to the Model Structure view.  To delete the UnitType dimension.  Click o
 ### Step 5
 
 
-SAP Analytics Cloud will now warn you about how this will affect your data.  If there are records in the data foundation, which were distinguished form each other only by this dimension, then they’ll be aggregated (e.g. all relevant measure values will be summed up) 
+SAP Analytics Cloud will now warn you about how this will affect your data.  If there are records in the data foundation, which were distinguished form each other only by this dimension, then they’ll be aggregated (e.g. all relevant measure values will be summed up).  At this point, you could save your model and use it.  It will work fine.  There is simply one less dimension than before and some records might need to be aggregated to reflect this.
 
 ![][image-5]
 ### Step 6
