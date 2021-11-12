@@ -138,7 +138,7 @@ The use of "Region" in this dataset refers to broad geographical regions of the 
 We’ll add a new WEL expression to do this. Check to see if Sate is empty and Region is “National Capital”.  If this is true, then write “DC” in as State.  Otherwise, retain the existing value of State.
 
 The following WEL expression does this:
-[State] = if(([Region] == "National Capital") && ([State] == ""), "DC", [State])
+> [State] = if(([Region] == "National Capital") && ([State] == ""), "DC", [State])
 
 Don’t execute yet!
 
