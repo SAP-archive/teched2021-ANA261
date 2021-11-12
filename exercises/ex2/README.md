@@ -51,7 +51,7 @@ Since our data source is located on a shared Google Sheet, select Google Drive a
 ### Step 6
 
 
-Select Google Sheet URL and enter the URL provided in the requirements section.
+Select Google Sheet URL and enter the URL provided in the [requirements section](https://github.com/SAP-samples/teched2021-ANA261#requirements) of the introduction.
 
 ![][image-6]
 ### Step 7
