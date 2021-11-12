@@ -49,9 +49,11 @@ Click the plus icon to add a new calculated measure.
 
 Your new calculated measure will contain the percentage of overnight visitors that camped in the wilderness, or at least had a backcountry permit for doing so.  To prevent overuse, protect the ecosystem and maintain the wilderness character in the backcountry, the US National Park Service rations designated backcountry campsites.
 
-Give your new calculated measure a name: BackcountryPerentage
+Give your new calculated measure a name:
+> BackcountryPerentage
 
-Give it a description: Percentage of overnight visitors with a backcountry camping permit
+Give it a description:
+> Percentage of overnight visitors with a backcountry camping permit
 
 At the bottom of the properties pane, in the Formatting group, select Percentage as Scaling.
 
