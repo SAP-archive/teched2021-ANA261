@@ -107,7 +107,7 @@ Click on the grey placeholder text and it will automatically change to an empty 
 ### Step 14
 
 
-We will now create our first Wrangler Expression Language (WEL) expression.  
+We will now create our first [Wrangler Expression Language (WEL) expression](https://blogs.sap.com/2020/08/12/introduction-to-smart-data-wrangling/).  
 
 To open the custom expression editor, click on the icon on the far right of the toolbar, in the Actions group.
 
