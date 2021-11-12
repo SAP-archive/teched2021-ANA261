@@ -33,7 +33,7 @@ In the Import History pane, look at the load job summary.  Click on the link “
 
 There are four rows in the rejection summary.  Each refers to an error “Member does not exist”.  This error is happening because there are unmaintained dimension member values.  
 
-The data is being loaded into the data foundation, also called a fact table.  Your model is in a star schema, and the language of SQL, the dimensions columns all have a foreign key constraint, with the primary key being in the dimension definition table.  Since there is no corresponding primary key, these values can’t be loaded.
+The data is being loaded into the data foundation, also called a fact table.  Your model is in a star schema, and the language of SQL, the dimensions columns all have a [foreign key constraint](https://www.w3schools.com/sql/sql_foreignkey.asp), with the primary key being in the dimension definition table.  Since there is no corresponding primary key, these values can’t be loaded.
 
 The option to automatically update the dimension metadata will be added, but is not in place yet, so you will have to edit the metadata to fix the problem.
 
