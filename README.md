@@ -2,7 +2,7 @@
 ## Description
 
 
-With release 2021.QRC3, SAP Analytics Cloud introduced an entirely new model, imaginatively named [New Model](https://blogs.sap.com/2021/05/18/overview-of-the-new-model-in-sap-analytics-cloud/).  It introduces features such as measures, model-based calculations and brings the smart wrangler into the data management workflow.  This workshop consists of a series of exercises to familiarize you with the capability and workflows of SAP Analytics Cloud’s New Model.  
+With release 2021.QRC2, SAP Analytics Cloud introduced an entirely new model, imaginatively named [New Model](https://blogs.sap.com/2021/05/18/overview-of-the-new-model-in-sap-analytics-cloud/).  It introduces features such as measures, model-based calculations and brings the smart wrangler into the data management workflow.  This workshop consists of a series of exercises to familiarize you with the capability and workflows of SAP Analytics Cloud’s New Model.  
 
 ## Overview
 
