@@ -30,10 +30,10 @@ The provided tenant is a preview tenant, but there is nothing in the exercises t
 Tennant URL: [https://appdesign.eu10.sapanalytics.cloud/](https://appdesign.eu10.sapanalytics.cloud/)
 
 User Credentials:
-* Email: student01@sap.com to student50@sap.com
+* Email: student01@sap.com to student60@sap.com
 * Password: Welcome01
 
-There is no guarantee that two people are not trying to use the same user at the same time. If you have a suitable tenant available, we recommend using that instead of the provided tenant simply to have your own personal user. As there are 50 users provisioned for this workshop on appdesign.eu10.sapanalytics.cloud, you can choose from one of fifty users and we hope to help avoid user collisions this way, but we still can't rule it out.
+There is no guarantee that two people are not trying to use the same user at the same time. If you have a suitable tenant available, we recommend using that instead of the provided tenant simply to have your own personal user. As there are 60 users provisioned for this workshop on appdesign.eu10.sapanalytics.cloud, you can choose from one of fifty users and we hope to help avoid user collisions this way, but we still can't rule it out.
 
 The data used in this workshop is a compilation of query data from the United States National Park service data query builder website. We’ll refer to this as the “National Parks Dataset”.  A cached copy is provided to you in the [data folder](https://github.com/SAP-samples/teched2021-ANA261/tree/main/exercises/data) as a convenient reference. Additionally, a copy has been uploaded as a public Google sheet.  In the exercises, we will configure our import job to draw directly from this public sheet.  
 
