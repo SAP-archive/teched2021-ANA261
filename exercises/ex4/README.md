@@ -55,7 +55,7 @@ Give your new calculated measure a name:
 Give it a description:
 > Percentage of overnight visitors with a backcountry camping permit
 
-At the bottom of the properties pane, in the Formatting group, select Percentage as Scaling.
+At the bottom of the properties pane, in the Formatting group, select Percentage as Scaling.  You will have to scroll down, as that part of the properties pane lies outside the screenshot.
 
 ![][image-4]
 ### Step 5
