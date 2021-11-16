@@ -19,13 +19,7 @@ A structure first workflow means that the user first maps out how the model is s
 
 ## Requirements
 
-
-In this session, you have three SAP Analytics Cloud tenant options:  
-* You may use the one provided to you for the session.  
-* You may use your BTP trial tenant if you have provisioned one.
-* You may use your own tenant and user if you have one.
-
-The provided tenant is a preview tenant, but there is nothing in the exercises that requires a preview tenant.  If you are using your own setup, a development or production tenant is sufficient.
+The provided tenant is a preview tenant, but there is nothing in the exercises that specifically requires a preview tenant.  We only use this tenant for convenience, as it has the required public dimensions maintained.
 
 Tennant URL: [https://appdesign.eu10.sapanalytics.cloud/](https://appdesign.eu10.sapanalytics.cloud/)
 
@@ -33,7 +27,7 @@ User Credentials:
 * Email: student01@sap.com to student60@sap.com
 * Password: Welcome01
 
-There is no guarantee that two people are not trying to use the same user at the same time. If you have a suitable tenant available, we recommend using that instead of the provided tenant simply to have your own personal user. As there are 60 users provisioned for this workshop on appdesign.eu10.sapanalytics.cloud, you can choose from one of fifty users and we hope to help avoid user collisions this way, but we still can't rule it out.
+There are 60 users provisioned for this workshop on appdesign.eu10.sapanalytics.cloud, you can choose from one of fifty users and we hope to help avoid user collisions this way, but we still can't rule it out.
 
 The data used in this workshop is a compilation of query data from the United States National Park service data query builder website. We’ll refer to this as the “National Parks Dataset”.  A cached copy is provided to you in the [data folder](https://github.com/SAP-samples/teched2021-ANA261/tree/main/exercises/data) as a convenient reference. Additionally, a copy has been uploaded as a public Google sheet.  In the exercises, we will configure our import job to draw directly from this public sheet.  
 
