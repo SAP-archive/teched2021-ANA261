@@ -85,13 +85,13 @@ Don’t panic when you see this popup.  The values can’t be empty, so we need 
 ### Step 11
 
 
-Click on the member input and select any value from the dropdown, ideally unassigned.  Lick on Ok to confirm.
+Click on the member input and select any value from the dropdown, ideally unassigned.  Click on Ok to confirm.
 
 ![][image-11]
 ### Step 12
 
 
-Click Ok to lose this dialog and save your model changes.  
+Click Ok to close this dialog and save your model changes.  
 
 ![][image-12]
 ### Step 13
@@ -119,7 +119,7 @@ Confirm that you want to clear the Data Foundation (Fact table)
 ### Step 16
 
 
-Navigate to the Data Management view.  At the far-right end of the import job listing, there is an ellipsis icon.  Select it and from the popup menu, choose Edit.  
+Navigate to the Data Management view.  At the far-right end of the import job listing, there is an ellipsis icon.  Select it and from the popup menu, choose Edit.  You will be prompted, asking to rerun the query.  Confirm this and the data will be reaquired.
 
 ![][image-16]
 ### Step 17
