@@ -107,7 +107,7 @@ Use the same method to add two additional public dimensions; Region and National
 ### Step 13
 
 
-Let’s add a local dimension, which will only exist inside this model.  Start by clicking on the pulldown arrow, on the Dimensions section of the left panel.  Select “Add new Dimension”.
+Let’s add a local dimension, which will only exist inside this model.  Start by clicking on the pulldown arrow, on the Dimensions section of the left panel.  Select “Add new Dimension”.  In the dialog, NO NOT select the option to create this dimension as a public dimension.
 
 ![][image-13]
 ### Step 14
