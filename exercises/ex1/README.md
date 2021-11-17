@@ -131,46 +131,42 @@ Call this member “National Monument”.
 ### Step 17
 
 
-This is the list view.  There is an alternative, spreadsheet style view, which might be more comfortable when maintaining many dimensions.  To go to this view, click the grid icon, to toggle into grid view.
+This is the list view.  There is an alternative, spreadsheet style view, which might be more comfortable when maintaining many dimensions.  To go to this view, click the grid icon, to toggle into grid view.  In grid view, you can simply click on a new row and directly edit the ID and description of a member. 
 
 ![][image-17]
-### Step 18
-
-
-In grid view, you can simply click on a new row and directly edit the ID and description of a member.  Add “National Park” to the Member ID in the first empty row.
 
 ![][image-18]
-### Step 19
+### Step 18
 
 
 After hitting Enter, you have three dimension members.
 
 ![][image-19]
-### Step 20
+### Step 19
 
 
 Click the back arrow, to return to the model.
 
 ![][image-20]
-### Step 21
+### Step 20
 
 
 Now we will begin adding measure.  Slick the Add button in the Measures area.
 
 ![][image-21]
-### Step 22
+### Step 21
 
 
 Set the name of the measure to RecreationVisits.
 
 ![][image-22]
-### Step 23
+### Step 22
 
 
 Set the description to “Daytrip Visitors”.  Set the data type to Integer.
 
 ![][image-23]
-### Step 24
+### Step 23
 
 
 Add the rest of the measures:
@@ -184,37 +180,37 @@ Add the rest of the measures:
 Set the data type on all of them to Integer.
 
 ![][image-24]
-### Step 25
+### Step 24
 
 
 Click to save the model
 
 ![][image-25]
-### Step 26
+### Step 25
 
 
 Name the model NationalParkVisitation.  Make sure to save this in your My Files folder and not in Public.  There will be dozens of other people creating models in this session.  If you do want to save it to Public for some reason, add a “_XX” suffix to the name, where the XX is the student number that you logged on with.
 
 ![][image-26]
-### Step 27
+### Step 26
 
 
 Now we’ll add an additional dimension.
 
 ![][image-27]
-### Step 28
+### Step 27
 
 
 Call the new dimension “DateAdded”.  Make sure that it is a date dimension.  We’ll use this dimension to record the date on which a particular fact table record was added.
 
 ![][image-28]
-### Step 29
+### Step 28
 
 
 Give it a description, “Date of record upload into model”.
 
 ![][image-29]
-### Step 30
+### Step 29
 
 
 This model has a select range of valid time and will reject uploaded date values outside this range.  We need to ensure that the valid range runs from 1979 to 2021.  To do this, we need to edit the time range setting in the model properties.  
@@ -224,43 +220,43 @@ We have multiple options for accessing the model properties dialog.  You can use
 Because of our current navigation state, with a particular dimension selected and the model details panel focused on the dimension settings of that member, one of these ways is to select the properties gear icon, next to date.
 
 ![][image-30]
-### Step 31
+### Step 30
 
 
 The other way to open the model properties dialog is always available.  In the menu, select General -> Model Preferences.
 
 ![][image-31]
-### Step 32
+### Step 31
 
 
 This is the model preferences dialog.  It has a series of tabs in the navigation pane at the left side.  The default selection of these panes is context sensitive.  If we came here from a date dimension, the default tab is the Fiscal Time.  Since we are not using fiscal time in this model, we don’t need to do anything here.
 
 ![][image-32]
-### Step 33
+### Step 32
 
 
 If we came here from the main menu, our default landing tab is General Settings.  While we are here, have a look at the general settings.  The model type is a planning model by default because your user is a planning user.  
 
 ![][image-33]
-### Step 34
+### Step 33
 
 
 Toggle to the Planning & Time Range tab.  Here you will find the valid date range.  This is the valid date range for all date dimensions in the model.  
 
 ![][image-34]
-### Step 35
+### Step 34
 
 
 Select the from data and select the starting date in the calendar picker. 
 
 ![][image-35]
-### Step 36
+### Step 35
 
 
 Make sure that the valid dates start on January 1, 1979 and click OK.
 
 ![][image-36]
-### Step 37
+### Step 36
 
 
 Save your model and this is how it should look now.
