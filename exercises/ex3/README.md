@@ -85,7 +85,7 @@ Don’t panic when you see this popup.  The values can’t be empty, so we need 
 ### Step 11
 
 
-Click on the member input and select any value from the dropdown, ideally unassigned.  Click on Ok to confirm.
+Click on the member input and select National Monument from the dropdown.  (the screenshot show unnasigned selected, but you should select National Monument)  Click on Ok to confirm.
 
 ![][image-11]
 ### Step 12
@@ -99,7 +99,7 @@ Click Ok to close this dialog and save your model changes.
 
 You have added a dimension to your model and filled it with dummy data.  To make this dimension useful, you will need to import valid data into it.
 
-Important!  Steps 13 to 15 are OPTIONAL!  You do not need to empty your fact table.  Re-running the import job will update the records where the import dataset and the fact data differ.  Because there are no “unassigned” values in the import data, every record will be updated.  If you want to learn how to clear a fact table, go ahead and proceed through the next three steps.
+Important!  Steps 13 to 15 are OPTIONAL!  You do not need to empty your fact table.  Re-running the import job will update the records where the import dataset and the fact data differ, which will be on records that don't have National Monument as the Region.  If you want to learn how to clear a fact table, go ahead and proceed through the next three steps.
 
 You can clear the data foundation by selecting the Delete Fats icon. In the Data area of the toolbar.
 
